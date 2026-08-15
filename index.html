@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jayneel Enterprises | Fire Protection Systems</title>
+    <meta name="description" content="Jayneel Enterprises provides end-to-end fire protection solutions for residential, commercial, and industrial projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Jayneel Enterprises home">
+        <img src="assets/logo-shield-transparent.png" alt="Jayneel Enterprises" class="brand-logo">
+        <span>
+          <strong>Jayneel Enterprises</strong>
+          <small>Fire Protection Systems</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Our Services</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#audit">Safety Audit & Training</a>
+        <a href="index.html#contact">Contact Us</a>
+      </nav>
+    </header>
+
+     
+    <main id="home">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <h1>Your Safety, Our Responsibility!</h1>
+          <p class="hero-lede">Reliable end-to-end fire protection solutions for residential, commercial, and industrial projects.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get a Free Quote</a>
+            <a class="btn btn-secondary" href="tel:+919769256160">Call Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us section-wrap" id="about">
+        <div class="about-content">
+          <div class="about-heading">
+            <p class="eyebrow">About Jayneel</p>
+            <h2>Decades of Excellence in Fire Protection</h2>
+          </div>
+          <div class="about-body">
+            <p>Jayneel Enterprises is a trusted leader in comprehensive fire protection solutions, dedicated to safeguarding lives and assets across residential, commercial, and industrial sectors. With years of industry expertise and a commitment to uncompromising safety standards, we deliver engineered systems that go beyond compliance—they inspire confidence.</p>
+            <div class="about-features">
+              <div class="feature-item">
+                <h4>✓ Certified & Compliant</h4>
+                <p>All systems designed and installed per NBC, government regulations, and international fire safety standards.</p>
+              </div>
+              <div class="feature-item">
+                <h4>✓ Expert Team</h4>
+                <p>Highly trained technicians with extensive experience in system design, installation, maintenance, and emergency response.</p>
+              </div>
+              <div class="feature-item">
+                <h4>✓ End-to-End Solutions</h4>
+                <p>From initial consultation and system design to installation, maintenance, and annual inspections—we're with you every step.</p>
+              </div>
+              <div class="feature-item">
+                <h4>✓ Proactive Maintenance</h4>
+                <p>Comprehensive Annual Maintenance Contracts ensure your systems remain operational and ready when you need them most.</p>
+              </div>
+            </div>
+            <p class="about-cta">Whether you're planning new installations, upgrading existing systems, or seeking routine maintenance, Jayneel Enterprises is your trusted partner for fire safety excellence and peace of mind.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-wrap" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Core services</p>
+          <h2>Engineered systems, maintained for real readiness</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card tilt-card">
+            <div class="card-carousel">
+              <div class="carousel-container">
+                <img src="assets/hydrant-system.jpg" alt="Hydrant system" class="carousel-image active">
+                <img src="assets/sprinkler-system.jpg" alt="Sprinkler system" class="carousel-image">
+                <img src="assets/hose-box.jpg" alt="Hose box" class="carousel-image">
+                <img src="assets/hose-reel.jpg" alt="Hose reel" class="carousel-image">
+                <img src="assets/fire-pump-room.jpg" alt="Fire pump room" class="carousel-image">
+                <img src="assets/sprinkler-branch-line.jpg" alt="Sprinkler branch line" class="carousel-image">
+              </div>
+              <button class="carousel-nav carousel-prev" onclick="moveCarousel(this, -1)">❮</button>
+              <button class="carousel-nav carousel-next" onclick="moveCarousel(this, 1)">❯</button>
+              <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                <span class="dot" onclick="goToSlide(this, 1)"></span>
+                <span class="dot" onclick="goToSlide(this, 2)"></span>
+                <span class="dot" onclick="goToSlide(this, 3)"></span>
+                <span class="dot" onclick="goToSlide(this, 4)"></span>
+                <span class="dot" onclick="goToSlide(this, 5)"></span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Fire Hydrant & Sprinkler Systems</h3>
+              <ul>
+                <li>System designing and installation compliant with NBC and government regulations.</li>
+                <li>Annual Maintenance Contract with periodic inspections.</li>
+                <li>High-pressure pump room maintenance for hydrant, jockey, diesel, and panel systems.</li>
+                <li>Pressure testing, leakage rectification, and welding repairs.</li>
+                <li>Certified replacement of hydrant valves, sprinkler heads, hose pipes, and hose boxes.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card tilt-card">
+            <div class="card-carousel">
+              <div class="carousel-container">
+                <img src="assets/alarm-system.jpg" alt="Fire alarm system" class="carousel-image active">
+                <img src="assets/gas-leak-detector.jpeg" alt="Gas leak detector" class="carousel-image">
+                <img src="assets/smoke-detector.jpg" alt="Smoke detector" class="carousel-image">
+                <img src="assets/fire-panel.jpg" alt="Fire alarm panel" class="carousel-image">
+              </div>
+              <button class="carousel-nav carousel-prev" onclick="moveCarousel(this, -1)">&#10094;</button>
+              <button class="carousel-nav carousel-next" onclick="moveCarousel(this, 1)">&#10095;</button>
+              <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                <span class="dot" onclick="goToSlide(this, 1)"></span>
+                <span class="dot" onclick="goToSlide(this, 2)"></span>
+                <span class="dot" onclick="goToSlide(this, 3)"></span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>Fire Alarm & Detection Systems</h3>
+              <ul>
+                <li>Fire-resistant cable wiring and precise detector connections.</li>
+                <li>Addressable panel programming and zoning for instant location identification.</li>
+                <li>Smoke testing, hooter decibel checks, and periodic calibration.</li>
+                <li>Fault rectification for open circuit, short circuit, and earth fault errors.</li>
+                <li>Battery backup testing and sensor cleaning to reduce false alarms.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <aside class="pro-tip">
+          <strong>Pro Tip</strong>
+          <p>We provide comprehensive, end-to-end fire safety services tailored for residential, commercial, and industrial projects.</p>
+        </aside>
+      </section>
+
+      <section class="product-summary section-band" id="products">
+        <div class="section-heading">
+          <p class="eyebrow">Products</p>
+          <h2>Advanced fire protection products for every project type</h2>
+          <p>We supply and service clean-agent suppression systems, fire rated doors, and ISI-certified extinguishers for residential, commercial, and industrial sites.</p>
+        </div>
+        <div class="summary-grid">
+          <article class="summary-card">
+            <img src="assets/gas-suppression.jpg" alt="Suppression Systems" class="product-image">
+            <span>01</span>
+            <h3>Suppression Systems</h3>
+            <p>Water mist, pre-action sprinkler, Novec 1230, and FM-200 solutions for sensitive and high-value spaces.</p>
+          </article>
+          <article class="summary-card">
+            <img src="assets/fire-doors.jpg" alt="Fire Rated Doors" class="product-image">
+            <span>02</span>
+            <h3>Fire Rated Doors</h3>
+            <p>Certified GI and wooden doors with panic bars, hydraulic closers, vision glass, and smoke seals.</p>
+          </article>
+          <article class="summary-card">
+            <img src="assets/extinguishers.jpg" alt="Fire Extinguishers" class="product-image">
+            <span>03</span>
+            <h3>Fire Extinguishers</h3>
+            <p>New sales, refilling, hydro-testing, and maintenance for ABC, CO2, Foam, Water, and Clean Agent units.</p>
+          </article>
+        </div>
+        <a class="btn btn-primary" href="products.html">View Detailed Products</a>
+      </section>
+
+      <section class="audit section-band" id="audit">
+        <div class="section-heading">
+          <p class="eyebrow">Compliance, audit & training</p>
+          <h2>Documentation and drills that build trust</h2>
+        </div>
+        <div class="audit-grid">
+          <article class="audit-item">
+            <span>01</span>
+            <h3>Fire Safety Audit</h3>
+            <p>Comprehensive site inspections with official audit reporting for societies, builders, and corporate clients.</p>
+          </article>
+          <article class="audit-item">
+            <span>02</span>
+            <h3>Employee & Laborer Training</h3>
+            <p>Hands-on extinguisher use, evacuation guidance, and safety awareness for working teams.</p>
+          </article>
+          <article class="audit-item">
+            <span>03</span>
+            <h3>Mock Drills</h3>
+            <p>Realistic preparedness drills that test response timing, communication, and evacuation discipline.</p>
+          </article>
+          <article class="audit-item" id="forms">
+            <span>04</span>
+            <h3>Form A & Form B</h3>
+            <p>Form A support for Fire NOC approval and Form B survey or renewal with licensed reporting.</p>
+          </article>
+        </div>
+          <div class="photo-strip" aria-label="Training and drill image placeholders">
+          <div class="photo-slot photo-slot-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 8.24.49 PM.jpeg" alt="Fire safety training demonstration">
+          </div>
+          <div class="photo-slot photo-slot-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 8.23.44 PM.jpeg" alt="Fire safety training session">
+          </div>
+          <div class="photo-slot photo-slot-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.41 PM.jpg" alt="Mock drill 3">
+          </div>
+          <div class="photo-slot photo-slot-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.42 PM.jpg" alt="Audit photo 4">
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-wrap" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Photo Gallery</p>
+          <h2>Training & Projects Gallery</h2>
+        </div>
+        <div class="card-carousel gallery-carousel" aria-roledescription="carousel">
+          <div class="carousel-container">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.40 PM (1).jpg" alt="Gallery image 1" class="carousel-image active">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.41 PM (1).jpg" alt="Gallery image 2" class="carousel-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.41 PM (2).jpg" alt="Gallery image 3" class="carousel-image">
+            <img src="assets/WhatsApp Image 2026-07-07 at 9.17.41 PM.jpg" alt="Gallery image 4" class="carousel-image">
+          </div>
+          <button class="carousel-nav carousel-prev" onclick="moveCarousel(this, -1)" aria-label="Previous slide">❮</button>
+          <button class="carousel-nav carousel-next" onclick="moveCarousel(this, 1)" aria-label="Next slide">❯</button>
+          <div class="carousel-dots" role="tablist" aria-label="Gallery navigation">
+            <span class="dot active" role="tab" aria-selected="true" onclick="goToSlide(this, 0)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="goToSlide(this, 1)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="goToSlide(this, 2)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="goToSlide(this, 3)"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <div class="contact-panel">
+          <div class="contact-info-card">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Jayneel Enterprises</h2>
+            <p class="contact-address">34, Mayasager Society, Tagore Nagar No. 3, Vikhroli East, Mumbai - 400083, Maharashtra, India.</p>
+            <div class="contact-links">
+              <a href="tel:+919769256160">9769256160</a>
+              <a class="contact-email" href="mailto:info@jayneelenterprises.com">info@jayneelenterprises.com</a>
+            </div>
+          </div>
+          <form class="inquiry-form" id="inquiryForm">
+            <div class="form-heading full-span">
+              <p class="eyebrow">Quick inquiry</p>
+              <h2>Tell us what you need</h2>
+              <p>Submit your requirement and it will open a ready-to-send email to our team.</p>
+            </div>
+            <label>
+              Full Name
+              <input name="name" type="text" placeholder="Your full name" required>
+            </label>
+            <label>
+              Mobile Number
+              <input name="mobile" type="tel" placeholder="Your mobile number" required>
+            </label>
+            <label>
+              Email Address
+              <input name="email" type="email" placeholder="name@example.com">
+            </label>
+            <label>
+              Service Required
+              <select name="service" required>
+                <option value="">Select service</option>
+                
+                <option>Installation</option>
+                <option>Refilling</option>
+                <option>AMC</option>
+                <option>Form B</option>
+                <option>Audit</option>
+                <option>Others</option>
+              </select>
+            </label>
+            <label class="full-span">
+              Message / Requirements
+              <textarea name="message" rows="4" placeholder="Share project location, system type, or urgency"></textarea>
+            </label>
+            <button class="btn btn-primary full-span" type="submit">Submit Query</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a class="whatsapp-float" href="https://wa.me/919769256160" target="_blank" rel="noreferrer" aria-label="Chat with Jayneel Enterprises on WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <path d="M16 3.2A12.6 12.6 0 0 0 5.4 22.6L4 29l6.6-1.3A12.6 12.6 0 1 0 16 3.2Zm0 2.4a10.2 10.2 0 0 1 8.6 15.8 10.2 10.2 0 0 1-12.9 3.8l-.7-.4-3.8.8.8-3.7-.4-.7A10.2 10.2 0 0 1 16 5.6Zm-4.1 5.3c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.8c.2.3 2.6 4.1 6.4 5.5 3.2 1.3 3.8.9 4.5.8.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5l-2.4-1.2c-.3-.1-.6-.2-.8.2l-1.1 1.4c-.2.3-.4.3-.8.1-.4-.2-1.5-.6-2.9-1.8-1.1-1-1.8-2.2-2-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.7.1-.2.1-.5 0-.7l-1.1-2.6c-.3-.6-.5-.6-.8-.6h-.9Z"/>
+      </svg>
+    </a>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Jayneel Enterprises. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
